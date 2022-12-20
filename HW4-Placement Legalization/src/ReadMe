@@ -1,0 +1,28 @@
+--How to compile
+  In this directory, enter the following command:
+    $ make
+  It will generate the executable file "hw4" in "../bin/".
+  
+  If you want to remove it, please enter the following command:
+   $ make clean
+   
+   
+   
+--How to Run
+  In this directory, enter the following command:
+  Usage: ../bin/[exe] [aux file] [reult file]
+  e.g.
+   $ ../bin/hw4 ../testcase/ibm01/ibm01.aux ../output/ibm01.result
+   $ ../bin/hw4 ../testcase/ibm07/ibm07.aux ../output/ibm07.result
+   $ ../bin/hw4 ../testcase/ibm09/ibm09.aux ../output/ibm09.result
+   $ ../bin/hw4 ../testcase/adaptec1/adaptec1.aux ../output/adaptec1.result
+   $ ../bin/hw4 ../testcase/adaptec3/adaptec3.aux ../output/adaptec3.result
+  
+--How to verify
+  In "HW4_grading/verifier/", enter "./verify [aux] [result]"
+  e.g.
+  ./verify ../testcase/ibm01/ibm01.aux ../output/ibm01.result
+  ./verify ../testcase/ibm07/ibm07.aux ../output/ibm07.result
+  ./verify ../testcase/ibm09/ibm09.aux ../output/ibm09.result
+  ./verify ../testcase/adaptec1/adaptec1.aux ../output/adaptec1.result
+  ./verify ../testcase/adaptec3/adaptec3.aux ../output/adaptec3.result
